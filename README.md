@@ -1,1 +1,3 @@
-# ExtraTiC-Patches
+# ExtraTiC-Patches - Universal
+This is the universal version of the script, meaning it contains the code from every other script.
+Because of this, it requires all of the dependencies. As such, using this script isn't recommended, unless you need all of the dependency mods.
