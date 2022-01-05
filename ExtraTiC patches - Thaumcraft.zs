@@ -117,3 +117,4 @@ mods.tconstruct.Casting.addTableRecipe(<TConstruct:ShurikenPart:31>, <liquid:man
 mods.tconstruct.Casting.addTableRecipe(<TConstruct:CrossbowLimbPart:31>, <liquid:mana> * 576, <TConstruct:Cast:1>, false, 100);
 mods.tconstruct.Casting.addTableRecipe(<TConstruct:CrossbowBodyPart:31>, <liquid:mana> * 720, <TConstruct:Cast:2>, false, 100);
 mods.tconstruct.Casting.addTableRecipe(<TConstruct:BowLimbPart:31>, <liquid:mana> * 216, <TConstruct:Cast:3>, false, 100);
+mods.tconstruct.Casting.addTableRecipe(<ExtraTiC:BowLimb:172>, <liquid:voidmetal.molten> * 216, <TConstruct:Cast:3>, false, 100);
