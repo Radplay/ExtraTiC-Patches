@@ -1,6 +1,6 @@
 //ExtraTiC Patches - EnderIO
 
-# Melting
+#Melting
 mods.tconstruct.Smeltery.addMelting(<EnderIO:itemAlloy:6>, <liquid:dark.steel.molten> * 144, 770, <EnderIO:blockIngotStorage:6>);
 mods.tconstruct.Smeltery.addMelting(<EnderIO:blockIngotStorage:6>, <liquid:dark.steel.molten> * 1296, 770, <EnderIO:blockIngotStorage:6>);
 mods.tconstruct.Smeltery.addMelting(<ExtraTiC:toolrod:171>, <liquid:dark.steel.molten> * 72, 770, <EnderIO:blockIngotStorage:6>);
@@ -49,8 +49,8 @@ mods.tconstruct.Smeltery.addMelting(<EnderIO:blockIngotStorage:1>, <liquid:energ
 mods.tconstruct.Smeltery.addAlloy(<liquid:dark.steel.molten> * 36, [<liquid:iron.molten> * 36, <liquid:coal> * 25, <liquid:obsidian.molten> * 72]);
 mods.tconstruct.Smeltery.addAlloy(<liquid:phased.iron.molten> * 72, [<liquid:iron.molten> * 72, <liquid:ender> * 125]);
 mods.tconstruct.Smeltery.addAlloy(<liquid:phased.gold.molten> * 72, [<liquid:energetic.alloy.molten> * 72, <liquid:ender> * 125]);
-mods.tconstruct.Smeltery.addAlloy(<liquid:energetic.alloy.molten> * 72, [<liquid:redstone.molten> * 50, <liquid:gold.molten> * 72, <liquid:glowstone> * 125]);
-mods.tconstruct.Smeltery.addAlloy(<liquid:conductive.iron.molten> * 35, [<liquid:redstone.molten> * 25, <liquid:iron.molten> * 36]);
+mods.tconstruct.Smeltery.addAlloy(<liquid:energetic.alloy.molten> * 72, [<liquid:redstone> * 50, <liquid:gold.molten> * 72, <liquid:glowstone> * 125]);
+mods.tconstruct.Smeltery.addAlloy(<liquid:conductive.iron.molten> * 35, [<liquid:redstone> * 25, <liquid:iron.molten> * 36]);
 
 #Casting
 mods.tconstruct.Casting.addTableRecipe(<EnderIO:itemAlloy:6>, <liquid:dark.steel.molten> * 144, <TConstruct:metalPattern:0>, false, 100);
