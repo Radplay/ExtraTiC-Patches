@@ -79,8 +79,5 @@ mods.tconstruct.ToolStats.setSpeed("Red Aurum", 1300);
 mods.tconstruct.ToolStats.setDamage("Red Aurum", 10);
 mods.tconstruct.ToolStats.setHandleModifier("Red Aurum", 4.376);
 
-#Values
-val drulloy = <ore:ingotDrulloy>;
 #Removal
-drulloy.remove(<ExtraTiC:drulloyIngot>);
 mods.nei.NEI.hide(<ExtraTiC:drulloyIngot>);
