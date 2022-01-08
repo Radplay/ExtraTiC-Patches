@@ -1,6 +1,6 @@
 //ExtraTiC Patches - Botania
 
-# Melting
+#Melting
 mods.tconstruct.Smeltery.addMelting(<Botania:manaResource:0>, <liquid:manasteel.molten> * 144, 430, <Botania:storage:0>);
 mods.tconstruct.Smeltery.addMelting(<Botania:storage:0>, <liquid:manasteel.molten> * 1296, 430, <Botania:storage:0>);
 mods.tconstruct.Smeltery.addMelting(<Botania:manaResource:7>, <liquid:elementium.molten> * 144, 530, <Botania:storage:2>);
