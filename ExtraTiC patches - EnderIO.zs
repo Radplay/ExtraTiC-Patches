@@ -1,6 +1,6 @@
 //ExtraTiC Patches - EnderIO
 
-# Melting
+#Melting
 mods.tconstruct.Smeltery.addMelting(<EnderIO:itemAlloy:6>, <liquid:dark.steel.molten> * 144, 770, <EnderIO:blockIngotStorage:6>);
 mods.tconstruct.Smeltery.addMelting(<EnderIO:blockIngotStorage:6>, <liquid:dark.steel.molten> * 1296, 770, <EnderIO:blockIngotStorage:6>);
 mods.tconstruct.Smeltery.addMelting(<ExtraTiC:toolrod:171>, <liquid:dark.steel.molten> * 72, 770, <EnderIO:blockIngotStorage:6>);
