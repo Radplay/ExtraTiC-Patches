@@ -59,6 +59,12 @@ mods.tconstruct.Smeltery.addMelting(<TConstruct:CrossbowLimbPart:31>, <liquid:ma
 mods.tconstruct.Smeltery.addMelting(<TConstruct:CrossbowBodyPart:31>, <liquid:mana> * 720, 500, <Thaumcraft:blockCosmeticSolid:4>);
 mods.tconstruct.Smeltery.addMelting(<TConstruct:BowLimbPart:31>, <liquid:mana> * 216, 500, <Thaumcraft:blockCosmeticSolid:4>);
 
+mods.tconstruct.Smeltery.addMelting(<ThermalFoundation:material:516>, <liquid:mana> * 576, 500, <Thaumcraft:blockCosmeticSolid:4>);
+mods.tconstruct.Smeltery.addMelting(<Thaumcraft:ItemBootsThaumium>, <liquid:mana> * 576, 500, <Thaumcraft:blockCosmeticSolid:4>);
+mods.tconstruct.Smeltery.addMelting(<Thaumcraft:ItemLeggingsThaumium>, <liquid:mana> * 1008, 500, <Thaumcraft:blockCosmeticSolid:4>);
+mods.tconstruct.Smeltery.addMelting(<Thaumcraft:ItemChestplateThaumium>, <liquid:mana> * 1152, 500, <Thaumcraft:blockCosmeticSolid:4>);
+mods.tconstruct.Smeltery.addMelting(<Thaumcraft:ItemHelmetThaumium>, <liquid:mana> * 720, 500, <Thaumcraft:blockCosmeticSolid:4>);
+
 #Casting
 mods.tconstruct.Casting.addTableRecipe(<Thaumcraft:ItemResource:16>, <liquid:voidmetal.molten> * 144, <TConstruct:metalPattern:0>, false, 100);
 mods.tconstruct.Casting.addTableRecipe(<ExtraTiC:toolrod:172>, <liquid:voidmetal.molten> * 72, <TConstruct:metalPattern:1>, false, 100);
@@ -117,4 +123,7 @@ mods.tconstruct.Casting.addTableRecipe(<TConstruct:ShurikenPart:31>, <liquid:man
 mods.tconstruct.Casting.addTableRecipe(<TConstruct:CrossbowLimbPart:31>, <liquid:mana> * 576, <TConstruct:Cast:1>, false, 100);
 mods.tconstruct.Casting.addTableRecipe(<TConstruct:CrossbowBodyPart:31>, <liquid:mana> * 720, <TConstruct:Cast:2>, false, 100);
 mods.tconstruct.Casting.addTableRecipe(<TConstruct:BowLimbPart:31>, <liquid:mana> * 216, <TConstruct:Cast:3>, false, 100);
-mods.tconstruct.Casting.addTableRecipe(<ExtraTiC:BowLimb:172>, <liquid:voidmetal.molten> * 216, <TConstruct:Cast:3>, false, 100);
+
+#Alloying
+mods.tconstruct.Smeltery.addAlloy(<liquid:mana> * 72, [<liquid:obsidian.molten> * 72, <liquid:iron.molten> * 36, <liquid:pyrotheum> * 50, <liquid:mithril.molten> * 72]);
+mods.tconstruct.Smeltery.addAlloy(<liquid:voidmetal.molten> * 72, [<liquid:blood> * 144, <liquid:ender> * 72, <liquid:gold.molten> * 36, <liquid:pokefennium.molten> * 108, <liquid:mana> * 144]);
