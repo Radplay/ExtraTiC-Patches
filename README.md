@@ -1,1 +1,1 @@
-# ExtraTiC-Patches
+# ExtraTiC Patches - Thaumcraft
