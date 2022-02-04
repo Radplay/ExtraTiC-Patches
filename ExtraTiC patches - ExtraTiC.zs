@@ -74,9 +74,9 @@ mods.tconstruct.Casting.addTableRecipe(<ExtraTiC:BowLimb:173>, <liquid:red.aurum
 
 #Stats
 mods.tconstruct.ToolStats.setHarvestLevel("Red Aurum", 3);
-mods.tconstruct.ToolStats.setDurability("Red Aurum", 44);
-mods.tconstruct.ToolStats.setSpeed("Red Aurum", 12.2);
-mods.tconstruct.ToolStats.setDamage("Red Aurum", 5);
+mods.tconstruct.ToolStats.setDurability("Red Aurum", 150);
+mods.tconstruct.ToolStats.setSpeed("Red Aurum", 12);
+mods.tconstruct.ToolStats.setDamage("Red Aurum", 3);
 mods.tconstruct.ToolStats.setHandleModifier("Red Aurum", 4.376);
 
 #Removal
