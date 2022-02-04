@@ -32,7 +32,7 @@ mods.tconstruct.Smeltery.addMelting(<ExtraTiC:CrossbowBody:173>, <liquid:red.aur
 mods.tconstruct.Smeltery.addMelting(<ExtraTiC:BowLimb:173>, <liquid:red.aurum.molten> * 216, 850, <ExtraTiC:blockFunStuff:2>);
 
 #Alloying
-mods.tconstruct.Smeltery.addAlloy(<liquid:red.aurum.molten> * 8, [<liquid:gold.molten> * 8, <liquid:blood> * 24]);
+mods.tconstruct.Smeltery.addAlloy(<liquid:red.aurum.molten> * 432, [<liquid:fairy.molten> * 432, <liquid:signalum.molten> * 288, <liquid:manyullyn.molten> * 576]);
 
 #Block and item recipes
 recipes.addShapeless(<ExtraTiC:blockFunStuff:2>, [<ExtraTiC:funStuffIngot:2> * 9]);
@@ -73,10 +73,10 @@ mods.tconstruct.Casting.addTableRecipe(<ExtraTiC:CrossbowBody:173>, <liquid:red.
 mods.tconstruct.Casting.addTableRecipe(<ExtraTiC:BowLimb:173>, <liquid:red.aurum.molten> * 216, <TConstruct:Cast:3>, false, 100);
 
 #Stats
-mods.tconstruct.ToolStats.setHarvestLevel("Red Aurum", 3);
-mods.tconstruct.ToolStats.setDurability("Red Aurum", 150);
-mods.tconstruct.ToolStats.setSpeed("Red Aurum", 12);
-mods.tconstruct.ToolStats.setDamage("Red Aurum", 3);
+mods.tconstruct.ToolStats.setHarvestLevel("Red Aurum", 5);
+mods.tconstruct.ToolStats.setDurability("Red Aurum", 800);
+mods.tconstruct.ToolStats.setSpeed("Red Aurum", 1300);
+mods.tconstruct.ToolStats.setDamage("Red Aurum", 10);
 mods.tconstruct.ToolStats.setHandleModifier("Red Aurum", 4.376);
 
 #Removal
